@@ -1,12 +1,10 @@
-import static org.junit.Assert.assertEquals;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 
-import org.junit.Test;
+import static org.junit.*;
 
 public class MarkdownParseTest {
 
