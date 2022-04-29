@@ -74,5 +74,17 @@ public class MarkdownParseTest {
 			e.printStackTrace();
 		}
 	}
+
+	@Test 
+	public void testMarkdownFileSix() {
+		ArrayList<String> toReturn = new ArrayList<>();
+		toReturn.add("www.twitter.com");
+		toReturn.add("www.google.com");
+		try {
+			assertEquals(toReturn, MarkdownParse.getLinks(Files.readString(Path.of(System.getProperty("user.dir") + File.separator + "test-file6.md"))));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
 	
 }
