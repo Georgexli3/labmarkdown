@@ -4,7 +4,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 
-import static org.junit.*;
+import static org.junit.Assert.*;
+import org.junit.*;
 
 public class MarkdownParseTest {
 
